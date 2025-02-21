@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-    <div>
+    <div className="home">
      <div className="title">
       <h1>Welcome to StockSim</h1>
       <h4>Your risk-free platform for simulating stock trading and honing your investment skills</h4>
@@ -29,6 +29,9 @@ export default function Home() {
       <h2>Contact the Developers</h2>
       <h5>Email: francisamal030@gmail.com</h5>
       <h5>Phone: (91) 9363032004</h5>
+     </div>
+     <div>
+      Start Simulating now
      </div>
     </div>
     <Footer/>
